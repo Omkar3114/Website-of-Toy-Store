@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(1.jpg);
+	height: 100vh;
+	width:205vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: scroll;
+}
+
+ul
+{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-right: 25px;
+}
+
+ul li
+{
+	display: inline-block;
+}
+
+ul li a
+{
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover
+{
+	background-color: #fff;
+	color: #000;
+}
+
+
+.main
+{
+	max-width: 1200px
+	margin: auto;
+}
+
+.title
+{
+	position: absolute;
+	top: 27%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #620808;
+	font-size: 25px;
+}
+
+.search-box
+{
+	position: absolute;
+	top: 50%;
+	left: 974px;
+	transform: translate(-50%,-50%);
+	background: #2f3640;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+
+.search-box:hover > .search-txt
+{
+width: 240px;
+padding: 0 6px;
+}
+
+.search-box:hover > .search-btn
+{
+background: #fff;
+}
+
+.search-btn
+{
+	color: #e84118;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #2f3640;
+	display: flex;
+	justify-content: center;
+	align-item: center;
+	transition: 2s;
+	background-image: url('3.jpg');
+}
+
+.search-txt
+{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height:40px;
+	width: 0px;
+}
+
